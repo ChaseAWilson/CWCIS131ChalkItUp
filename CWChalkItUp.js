@@ -1,8 +1,6 @@
 import chalk from 'chalk';
 import chalkAnimation from 'chalk-animation';
 
-const rainbow = chalkAnimation.rainbow('Lorem ipsum'); // Animation starts
-
 // a stylized fun short story i found
 console.log(chalk.yellowBright(`
   After flying a ${chalk.italic("long")} distance, a ${chalk.blue("thirsty")} crow was wandering the ${chalk.green("forest")} in search of ${chalk.blue("water")}.
@@ -13,9 +11,10 @@ console.log(chalk.yellowBright(`
 `));
 
 // animate the moral of the story
-const animation = chalkAnimation.karaoke('The crow learned that if there’s a will, there’s a way. Every problem has a solution if we just look hard enough and don’t give up');
+// this appears to have broken since yesterday
+// const animation = chalkAnimation.karaoke('The crow learned that if there\'s a will, there\'s a way. Every problem has a solution if we just look hard enough and don\'t give up');
 
 // auto stop animaton after 8 seconds
-setTimeout(() => {
-  animation.stop(); // Animation stops
-}, 8000);
+// setTimeout(() => {
+//   animation.stop(); // Animation stops
+// }, 8000);
