@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "chalk-animation": "^2.0.3"
+  }
+}
